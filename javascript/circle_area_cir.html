@@ -1,25 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<title>Circle - Area & Circumference </title>
-</head>
-<body>
-<h3> Area and Circumference </h3>
-<p id="demo"></p>
-<script>
-let radius = 12;
-let pi = 3.14;
-ch = 2;
-switch(ch) {
-case 1:
-circle = "Area of Circle is " + (pi * radius * radius);
-break;
+  <head>
+    <title>Circle - Area & Circumference</title>
+  </head>
+  <body>
+    <h3>Area and Circumference</h3>
+    <p id="demo"></p>
+    <script>
+      let radius = 12;
+      let pi = 3.14;
+      ch = 2;
+      switch (ch) {
+        case 1:
+          circle = "Area of Circle is " + pi * radius * radius;
+          break;
 
-case 2: 
-circle = "Circumference of Circle is "+ (2 * pi * radius);
-}
+        case 2:
+          circle = "Circumference of Circle is " + 2 * pi * radius;
+      }
 
-document.getElementById("demo").innerHTML = circle;
-</script>
-</body>
+      document.getElementById("demo").innerHTML = circle;
+    </script>
+  </body>
 </html>
