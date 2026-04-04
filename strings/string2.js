@@ -10,4 +10,8 @@ document.getElementById("string").innerHTML =
   "<br> <b>codePointAt: </b>" +
   text.codePointAt(4) +
   "<br> <b>concat(): </b>" +
-  text.concat(num);
+  text.concat(num) +
+  "<br> <b>slice(): </b>" +
+  text.slice(3, 14) +
+  "<br> <b>replace(): </b>" +
+  text.replace("abc", "dar");
