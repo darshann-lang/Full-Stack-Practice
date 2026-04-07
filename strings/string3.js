@@ -5,10 +5,10 @@ let index2 = text1.lastIndexOf("locate");
 let index3 = text1.search(/locate/);
 
 document.getElementById("string").innerHTML =
-  "<b>indexOf(): </b>" + //indexOf()
+  "<b>indexOf(): </b>" +
   index1 +
   "<br><b>lastIndexOf(): </b>" +
   index2 +
-  "<br><b>search(): </b>" + // search() and indexof() works similarly
+  "<br><b>search(): </b>" +
   index3 +
   "<br><b>search(): </b>";
